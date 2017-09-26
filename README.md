@@ -4,7 +4,7 @@
 - [Как использовать](#Как-использовать)
 - [Автор](#Автор)
 # Что это
-Это виджет (скин к программе [Rainmeter](https://www.rainmeter.net/)) для рабочего стола, отображающий текущую статистику по майнерам на пулах.
+Это виджет (скин к программе [Rainmeter](https://www.rainmeter.net/)) (**Windows only!**)для рабочего стола, отображающий текущую статистику по майнерам на пулах.
 
 ![Screenshot1](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/bgsolid-0-bgblack.png)
 ![Screenshot2](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/bgsolid-100-bgwhite.png)
