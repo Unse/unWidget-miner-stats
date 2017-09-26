@@ -1,6 +1,7 @@
-# unWidget-miner-stats
-Skins for Rainmeter to monitoring miner stats on some pools.
-
+# Оглавление
+- [Что это](https://github.com/Unse/unWidget-miner-stats#Что-это)
+- [Как использовать](#Как-использовать)
+- [Автор](#Автор)
 # Что это
 Это виджет (скин к программе [Rainmeter](https://www.rainmeter.net/)) для рабочего стола, отображающий текущую статистику по майнерам на пулах.
 
