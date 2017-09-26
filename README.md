@@ -1,5 +1,5 @@
 # Оглавление
-- [Что это](https://github.com/Unse/unWidget-miner-stats#Что-это)
+- [Что это](#Что-это)
 - [Как использовать](#Как-использовать)
 - [Автор](#Автор)
 # Что это
@@ -34,6 +34,10 @@
 
 - Добавить виджет для ZEC (nanopool)
 - Добавить текущую сложность сети
+- ~~надписи по русски~~
+- Заменить все ссылки с обла на гитхаб
+- Сделать дополнительный минималистичный дизайн (_не скоро_)
+- Сделать несколько готовых тем оформления (_не скоро_)
 
 #### Какие данные пользователя собираются
 
@@ -68,12 +72,31 @@ Changelog.txt - используется мной для ведения ченж
 **.ini разных пулов обязательно класть в разные подпапки**, иначе они будут менять друг друга, при включении, а не отображаться рядом!
 
 #### Управление
-_User Fiendly_ :D
+- После запуска программы Rainmeter выберите нужный скин (или несколько).
+- **Добавление адреса:**
+  -Необходимо нажать кнопку **Edit** на скине
+  -[Добавить адрес1](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/add_addr1.png)
+  -В появившееся окно вставить ваше адрес майнера на соответствующем пуле, нажать **Enter**.
+  -[Добавить адрес2](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/add_addr2.png)
+  -Через несколько секунд у вас начнет отобржататься ваш хэшрейт и другая статистика.
+- **Сохранение\Удаление адреса**
+  - После каждого перезапуска программы\скина вам придется заново вбивать адрес. 
+  - Кнопка Save и Delete - сохраняет и удаляет ваш текущий адрес прямо в .ini файл скина, и его не придется заного вбивать после перезапуска.
+  - [Сохранить и Удалить адрес](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/save_del_addr.png)
+- **Переключение между Total Paid и Total Due**
+  - Вы можете переключаться между текущим балансом и суммой выплат просто кликнув на строку "**Your total paid**"
+  - [paid \ due](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/paid_due.png)
+- **Переключение между Курсом монеты и вашим текущим (от хэшрейта) профитом "$ в день" и "$ в месяц"***
+  - Кликайте по области курса монеты нужное количество раз
+  - [currency \ profit](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/currency_profit.png)
+- **Открыть страницу виджета и страницу пула***
+  - Открыть страницу виджета - кликнуть по иконке монеты (1). Открыть страницу пула - кликнуть по названию пула(2).
+  - [links](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/links.png)
+
 #### Как обновить
 
 # Автор
 unSe (SeveReedge)
-
-Группа в Telegram: [Invite link](https://t.me/unWidget)
+По всем вопросам группа в Telegram: [Invite link](https://t.me/unWidget)
 
 Если вам нравится виджет, вы можете послать мне немного XMR на `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
