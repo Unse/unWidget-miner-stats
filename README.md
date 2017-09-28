@@ -1,4 +1,7 @@
-# Version: 1.1
+# Version: 1.1.2
+Добавлены zec.nanopool.org ; dwarfpool.com/zec
+
+[Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 # Оглавление
 - [Что это](#Что-это)
 - [Как использовать](#Как-использовать)
