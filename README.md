@@ -1,5 +1,6 @@
-# Version: 1.1.2
-Добавлены zec.nanopool.org ; dwarfpool.com/zec
+# Version: 1.1.3
+- Добавлены Profit в День\Месяц для aeonmining.pro 
+- Хешрейт у aeon и intense теперь отображается как у всех (без H; KH и т.п.)
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 # Оглавление
@@ -18,6 +19,9 @@
 * [Sumomining.pro](https://Sumomining.pro)
 * [Aeonmining.pro](https://Aeonmining.pro)
 * [Intensemining.pro](https://Intensemining.pro)
+* [zec.nanopool.org](https://zec.nanopool.org/)
+* [zcash.flypool.org](https://zcash.flypool.org/)
+* [dwarfpool.com/zec](http://dwarfpool.com/zec/)
 
 #### Какую статистику показывает
 
