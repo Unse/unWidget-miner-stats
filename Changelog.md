@@ -1,4 +1,4 @@
-# Version 1.1.3
+# Latest Version 1.1.3
 - Добавлены Profit в День\Месяц для aeonmining.pro 
 - Хешрейт у aeon и intense теперь отображается как у всех (без H; KH и т.п.)
 # Version 1.1.2
