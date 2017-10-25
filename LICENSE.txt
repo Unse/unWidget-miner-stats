@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2017 Unse (https://github.com/Unse)
+Copyright (c) 2017 unS_e (https://github.com/Unse)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
