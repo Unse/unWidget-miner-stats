@@ -10,12 +10,13 @@
 - Changed the name of the pool
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
+
 [Русский readme](https://github.com/Unse/unWidget-miner-stats/blob/master/README_RUS.md)
 # Content
-- [What is it](#What-is-it)
-- [How to use](#How-to-use)
-- [Author](#Author)
-- [Donate](#Donate)
+- [What is it](#what-is-it)
+- [How to use](#how-to-use)
+- [Author](#author)
+- [Donate](#donate)
 # What is it
 It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!**) for desktop, showing the current statistics on the miners on pools.
 
