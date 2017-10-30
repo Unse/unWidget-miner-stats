@@ -119,6 +119,9 @@ You can download separately .ini and .png and put in the folder of the skin in t
 - **Open widget page and pool page**
   - Open the widget page - click on the coin icon (1). Open the pool page - click on the pool name (2).
   - ![links](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/links.png)
+- **Context Menu**
+  - Also widgets have context menu
+  - ![context](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/context_menu.png)
 
 #### How to update
 - **Notification**
