@@ -1,147 +1,148 @@
 # Version: 1.3
-- Исправлены опечатки и мелкие ошибки
-- Оптимизировано количество подключений к апи различных сайтов
-- Переписаны некоторе функции для локального подсчета
-- Профит вычисляется по формуле локально
-- Добавлено отображение Reward day\month
-- Добавлено отображение текущей сложности сети (кликнуть на Last block time ago)
-- Обновления теперь проверяются на гитхабе
-- Иконка монеты ведет на гитхаб
-- Изменено название пула
+- Fixed typos and minor errors
+- The number of connections to various sites has been optimized
+- Some functions for local counting are rewritten
+- The profit is calculated according to the formula locally
+- Added display of Reward day / month
+- Added displaying the current network difficulty (click on "Last block time ago")
+- Updates are now checked on the github
+- Coin icon link to githab
+- Changed the name of the pool
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
-# Оглавление
-- [Что это](#Что-это)
-- [Как использовать](#Как-использовать)
-- [Автор](#Автор)
-# Что это
-Это виджет (скин к программе [Rainmeter](https://www.rainmeter.net/)) (**Windows only!**)для рабочего стола, отображающий текущую статистику по майнерам на пулах.
+
+# Content
+- [What is it](#What-is-it)
+- [How to use](#How-to-use)
+- [Author](#Author)
+# What is it
+It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!**) for desktop, showing the current statistics on the miners on pools.
 
 ![Screenshot1](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/bgsolid-0-bgblack.png)
 ![Screenshot2](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/bgsolid-100-bgwhite.png)
 
-#### Под какие пулы уже есть виджеты
+#### What pools there are widgets already
 
-* [Minemonero.pro](https://minemonero.pro)
-* [Sumomining.pro](https://Sumomining.pro)
-* [Aeonmining.pro](https://Aeonmining.pro)
-* [Intensemining.pro](https://Intensemining.pro)
+* [Hashvault.pro/](https://www.hashvault.pro/)
+  - [monero.hashvault.pro](https://monero.hashvault.pro)
+  - [sumokoin.hashvault.pro](https://sumokoin.hashvault.pro)
+  - [intense.hashvault.pro](https://intense.hashvault.pro)
+  - [aeon.hashvault.pro](https://aeon.hashvault.pro)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
 
-#### Какую статистику показывает
+#### What statistics shows
 
-- Общая статистика:
-  - Отсчет времени с момента последнего найденного блока **пулом**
-  - Курс монеты к **USD** и к **BTC** ( курс берется с https://www.cryptonator.com/)
-- Статистика майнера на пуле:
-  - Текущий общий хэшрейт заданного адреса
-  - Текущий баланс майнера на пуле ( Due )
-  - Сколько всего монет выведено майнером с пула ( Paid )
-  - Profit и Reward (от текущего хэшрейта) **в День** и **в Месяц** в ( $ )
-  - Сложность сети
+- General Statistics:
+   - Counting the time since the last block found **by pool**
+   - The coin currency to **USD** and to **BTC** (currency is taken from https://www.cryptonator.com/)
+- Statistics of the miner on the pool:
+   - The current hashrate of the specified address
+   - Current balance of the miner on the pool (Due)
+   - How many coins were paid from the pool (Paid)
+   - Profit and Reward (from the current hashrate) **in Day** and **in Month** in ($)
+   - Network difficulty
 
-#### Что планируется
+#### What planned
 
-- [x] Добавить виджет для ZEC (nanopool)
-- [x] Добавить текущую сложность сети
-- [x] Заменить все ссылки с облака на гитхаб
-- [ ] Сделать дополнительный минималистичный дизайн (_не скоро_)
-- [ ] Сделать несколько готовых тем оформления (_не скоро_)
-- [ ] Вынести универсальный или статичный код (рассчет и визуализация) в отдельные файлы для универсальности и увеличения скорости создания новых виджетов
-- [ ] Более грамотно организовать работу с отображением, унифицировать шаблон виджета
+- [ ] Make an extra minimalistic design (_not soon_)
+- [ ] Make several ready-made themes (_not_ soon)
+- [ ] Make universal or static code (calculation and visualization) into separate files for universality and increase the speed of creating new skins for another pools
+- [ ] It is more efficient to organize the work with the display, unify the widget template
+- [ ] Make code more clean
  
-#### Какие данные пользователя собираются
+#### What user data is collected
 
-Для понимания спроса на виджет, я позволил себе добавить отправку статистики на Google Analytics.
-За это отвечают три первых функции в секции Measures: 
-- \[MeasureRandomID\] - Генерирует случайный ID ни к чему не привязанный
-- \[MeasureStats\] - Формирует данные для отправки
-- \[MeasureSendStat\] - непосредственно отправляет данные на сервер google.
+To understand the demand for the widget, I allowed myself to add sending statistics to Google Analytics.
+For this, the first three functions in the Measures section:
+- \[MeasureRandomID\] - Generates a random ID that is not tied to anything
+- \[MeasureStats\] - Forms the data to send
+- \[MeasureSendStat\] - directly sends data to the google server
 
-Отправляются только следующие данные:
-- Случайный ID (ни к чему не привязанный)
-- Версия виджета
-- Название виджета (под какой пул)
+Only the following data is sent:
+- Random ID (not tied to anything)
+- Widget version
+- The name of the widget (which pool)
 
-Мне не доступны ни ваши IP ни какие либо другие данные, я вижу только общее количество запущенных виджетов всего с различиями по версиям и названиями виджета.
+I do not have access to either your IP or any other data, I see only the total number of running widgets with only differences in the versions and names of the widget.
+If you do not want this data to be sent, delete the above functions: \[MeasureRandomID\],\[MeasureStats\],\[MeasureSendStat\]
 
-Если вы не хотите, чтобы эти данные отправлялись - удалите вышеуказанные функции. \[MeasureRandomID\],\[MeasureStats\],\[MeasureSendStat\]
+# How to use
 
-# Как использовать
+#### How to install
+First you need to download and install the program **Rainmeter** version 4.0 final [from the official site] (https://www.rainmeter.net/).
+Then there are two ways to install:
+- Method 1. One installation file. (**preferred for first installation**)
 
-#### Как установить
-Сначала необходимо скачать и установить саму программу **Rainmeter** версии 4.0 final [с официального сайта](https://www.rainmeter.net/).
-Далее два способа установки:
-- Способ 1. Одним установочным файлом. (**предпочтительный при первой установке**)
+Download the self-installing file "**unWidget-miner-stats_%current_version_number%.rmskin**" and double-click to install it. In this case, all the skin files will be immediately moved to the necessary directories and ready for use.
+_\+ Convenient for initial installation, or in case of global update_
+_\- All saved addresses in ** all ** widgets will be reset_
+- Method 2: Manually copy .ini files
 
-Скачать самоустановочный файл "**All pools widget (by uns\_e)\_%номер_текущей_версии%.rmskin**" и двойным кликом установить его. При этом все файлы скина сразу будут перемещены в нужные директории и готовы к использованию.
-_\+ Удобно для первоначальной установки, либо в случае глобального обновления_
-_\- Все сохраненные адреса во **всех** виджетах будут сброшены_
-- Способ 2. Вручную копировать .ini файлы
-
-По умолчанию файлы скинов хранятся в `%userprofile%\Documents\Rainmeter\Skins` (Win7-10). Мой скин использует следующую иерархию, следовать ей желательно, но не обязательно:
+By default, skin files are stored in `%userprofile%\Documents\Rainmeter\Skins` (Win7-10). My skin uses the following hierarchy, it is desirable to follow it, but it is not necessary:
 ```
 %userprofile%\Documents\Rainmeter\Skins
 %userprofile%\Documents\Rainmeter\Skins\Unse
-%userprofile%\Documents\Rainmeter\Skins\Unse\%название_скина%
+%userprofile%\Documents\Rainmeter\Skins\Unse\%skin_name%
 ```
-Например "C:\Users\Unse\Documents\Rainmeter\Skins\unse\IntenseMining.pro\", где находятся 4 файла скина:
+For example, "C:\Users\Unse\Documents\Rainmeter\Skins\unse\IntenseMining.pro\", where there are 4 skin files:
 ```
-intensemining.pro.ini - сам скин, обязательный файл
-intenselogo.png - лого скина, обязательный файл
-CheckVer.txt - используется мной для проверки обновлений, скачивать не обязательно
-Changelog.txt - используется мной для ведения ченжлога, скачивать не обязательно
+intensemining.pro.ini - skin itself, required file
+intenselogo.png - skin logo, required file
+CheckVer.txt - used by me to check for updates, it is not necessary to download
+Changelog.txt - used by me to conduct a changelogue, it is not necessary to download
 ```
-Вы можете отдельно скачать .ini и .png и положить в папку скина в соответствующей директории.
-**.ini разных пулов обязательно класть в разные подпапки**, иначе они будут менять друг друга, при включении, а не отображаться рядом!
+You can download separately .ini and .png and put in the folder of the skin in the corresponding directory.
+**.ini different pools must be placed in different subfolders**, otherwise they will change each other, when turned on, and not displayed next!
 
-#### Управление
-- После запуска программы Rainmeter выберите нужный скин (или несколько).
-- **Добавление адреса:**
-  - Необходимо нажать кнопку **Edit** на скине
-  - ![Добавить адрес1](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/add_addr1.png)
-  - В появившееся окно вставить ваше адрес майнера на соответствующем пуле, нажать **Enter**.
-  - ![Добавить адрес2](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/add_addr2.png)
-  - Через несколько секунд у вас начнет отобржататься ваш хэшрейт и другая статистика.
-- **Сохранение\Удаление адреса**
-  - После каждого перезапуска программы\скина вам придется заново вбивать адрес. 
-  - Кнопка **Save** и **Delete** - сохраняет и удаляет ваш текущий адрес прямо в .ini файл скина, и его не придется заного вбивать после перезапуска.
-  - ![Сохранить и Удалить адрес](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/save_del_addr.png)
-- **Переключение между Total Paid и Total Due**
-  - Вы можете переключаться между текущим балансом и суммой выплат просто кликнув на строку "**Your total paid**"
-  - ![paid \ due](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/paid_due.png)
-- **Переключение между Курсом монеты и вашим текущим (от хэшрейта) профитом "$ в день" и "$ в месяц"***
-  - Кликайте по области курса монеты нужное количество раз
-  - ![currency \ profit](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/currency_profit.png)
-- **Открыть страницу виджета и страницу пула***
-  - Открыть страницу виджета - кликнуть по иконке монеты (1). Открыть страницу пула - кликнуть по названию пула(2).
+#### Management
+- After starting the Rainmeter program, select the desired skin (or several).
+- **Adding an address:**
+  - You must press the **Edit** button on the skin
+  - ![Add_addr1](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/add_addr1.png)
+  - In the appeared window, insert your address of the miner on the corresponding pool, press **Enter**.
+  - ![Add_addr2](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/add_addr2.png)
+  - After a few seconds, your hashrate and other statistics will start to show up.
+- **Save / Delete address**
+  - After each restart of the program \ skin, you have to re-enter the address.
+  - Button **Save** and **Delete** - saves and deletes your current address directly in the .ini file of the skin, and it does not have to be reentered after restarting.
+  - ![Save_and_Delete_addr](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/save_del_addr.png)
+- **Switching between Total Paid and Total Due**
+  - You can switch between the current balance and the amount of payments simply by clicking on the line "**Your total paid**" or "**Your total Due**"
+  - ![paid\due](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/paid_due.png)
+- **Switching between the Coin Currency and your current (from hashrate) profit and reward "$ per day" and "$ per month"**
+  - Click on the area of the coin currency the required number of times
+  - ![currency\profit](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/currency_profit.png)
+- **Open widget page and pool page**
+  - Open the widget page - click on the coin icon (1). Open the pool page - click on the pool name (2).
   - ![links](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/links.png)
 
-#### Как обновить
-- **Уведомление**
-  - Виджет научен сам проверять наличие свежих версий. Как только я выкладываю новую версию - в виджете появляется всплывающее (кликабельное) окно с уведомлением на 2,5 секунды.
+#### How to update
+- **Notification**
+  - The Widget is scientific itself to check for fresh versions. As soon as I post the new version - a pop-up (clickable) window with a notification for 2.5 seconds appears in the widget.
   - ![newver_popup](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/newver_popup.png)
-  - После того как свернется всплывающее окно, на виджете загорится надпись "**New Version Available**".
+  - After the pop-up window collapses, the inscription "**New Version Available**" will light up on the widget.
   - ![newver_small](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/newver_small.png)
-  - Кликнув по вспылвающему уведомлению или по красной надписи у вас откроется окно с информацией о новой версии.
+  - Clicking on the flash notification or on the red label will open a window with information about the new version.
   - ![Changelog](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/changelog.png)
-  - 1 - Скрыть окно
-  - 2 - Ссылка на скачивание .ini файла виджета
-  - 3 - Описание изменений в новой версии
-- **Обновление**
-  - Способ 1.
-    - По ссылке **Download link** можно скачать .ini файл виджета конкретного пула.
-    - Скачанным .ini заменить старый .ini в соответствующей папке скинов (или скачать папку целиком и заменить).
-    - Перезапустить Rainmeter
-    - Заново вбить адрес в обновленный виджет
-  - Способ 2.
-    - Скорее всего при обновлении даже одного виджета, я буду переделывать установочный пакет .rmskin, поэтому вы можете кликнуть по иконке монеты и скачать свежий установочный файл.
-    - Не забывайте, что при этом у вас удалятся сохраненные адреса во всех виджетах.
-# Автор
+  - 1 - Hide window
+  - 2 - Link to download the .ini file of the widget
+  - 3 - Description of changes in the new version
+- **Update**
+  - Method 1.
+    - Under the link ** Download link ** you can download the .ini file of the specific pool widget.
+    - Download .ini to replace the old .ini in the corresponding folder of skins (or download the entire folder and replace it).
+    - Restart Rainmeter
+    - Re-write the address in the updated widget
+  - Method 2.
+    - Most likely when updating even one widget, I will redesign the installation package .rmskin, so you can click on the coin icon and download the fresh installation file.
+# Author
 unSe (SeveReedge)
 
-По всем вопросам группа в Telegram @unWidget [Invite link](https://t.me/unWidget)
+For all questions, the group at **Telegram** @unWidget [Invite link](https://t.me/unWidget)
 
-Если вам нравится виджет, вы можете послать мне немного XMR на `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
+If you like the widget, you can send me some BTC ; XMR or ZEC 
+BTC: `1QJu6Yuwd3MLz6CUfNzy2FLLmqgo2h8eWv`
+XMR: `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
+ZEC: `t1NTaptaMQiu2j3hHoZBdpwWRwqMouYo1mD`
