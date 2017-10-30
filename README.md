@@ -10,11 +10,12 @@
 - Changed the name of the pool
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
-
+[Русский readme](https://github.com/Unse/unWidget-miner-stats/blob/master/README_RUS.md)
 # Content
 - [What is it](#What-is-it)
 - [How to use](#How-to-use)
 - [Author](#Author)
+- [Donate](#Donate)
 # What is it
 It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!**) for desktop, showing the current statistics on the miners on pools.
 
@@ -141,8 +142,10 @@ You can download separately .ini and .png and put in the folder of the skin in t
 unSe (SeveReedge)
 
 For all questions, the group at **Telegram** @unWidget [Invite link](https://t.me/unWidget)
+If you find a mistake in the translation, please write me.
 
+# Donate
 If you like the widget, you can send me some BTC ; XMR or ZEC 
-BTC: `1QJu6Yuwd3MLz6CUfNzy2FLLmqgo2h8eWv`
-XMR: `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
-ZEC: `t1NTaptaMQiu2j3hHoZBdpwWRwqMouYo1mD`
+- BTC: `1QJu6Yuwd3MLz6CUfNzy2FLLmqgo2h8eWv`
+- XMR: `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
+- ZEC: `t1NTaptaMQiu2j3hHoZBdpwWRwqMouYo1mD`
