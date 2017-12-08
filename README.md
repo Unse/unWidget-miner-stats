@@ -1,13 +1,5 @@
-# Version: 1.3
-- Fixed typos and minor errors
-- The number of connections to various sites has been optimized
-- Some functions for local counting are rewritten
-- The profit is calculated according to the formula locally
-- Added display of Reward day / month
-- Added displaying the current network difficulty (click on "Last block time ago")
-- Updates are now checked on the github
-- Coin icon link to githab
-- Changed the name of the pool
+# Version: 1.31
+- Added widget for electroneum.hashvault.pro
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 
