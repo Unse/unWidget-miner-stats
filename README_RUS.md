@@ -19,6 +19,7 @@
 * [Sumomining.pro](https://Sumomining.pro)
 * [Aeonmining.pro](https://Aeonmining.pro)
 * [Intensemining.pro](https://Intensemining.pro)
+* [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
