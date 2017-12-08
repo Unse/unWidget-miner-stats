@@ -22,6 +22,7 @@ It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!
   - [sumokoin.hashvault.pro](https://sumokoin.hashvault.pro)
   - [intense.hashvault.pro](https://intense.hashvault.pro)
   - [aeon.hashvault.pro](https://aeon.hashvault.pro)
+  - [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
