@@ -1,5 +1,11 @@
-# Version: 1.31
-- Добавлен виджет для electroneum.hashvault.pro
+# Version: 1.4
+- Добавлен fonero.hashvault.pro
+- Переделан виджет под ITNS в связи с переездом на основное апи (спасибо шэфу, дождались переезда!)
+- Для ITNS со stocks.exchange теперь подбирается значение "buy". Но парсер кривой, так что если поменяется порядок пар на бирже, то может подхватить чужые значения, пишите если что
+- Для FNO тоже выбраны значения "buy" со stocks
+- Для stocks.exchange увеличен период обновления прайсов до 500 секунд. А то банят чёт. :(
+- Для ETN исправлена формула профита, теперь вычитается 35%, как и должно быть (значение примерное, но лучше рассчитывать на худшее, а получать чуть больше. По факту реальных примерно 25-30% надо вычитать. Связано с нестабильностью сети Электронеума)
+- Реорганизация подхватывания ченжлога и чекверсии, для своего удобства.
 
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
@@ -20,9 +26,11 @@
 * [Aeonmining.pro](https://Aeonmining.pro)
 * [Intensemining.pro](https://Intensemining.pro)
 * [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
+* [fonero.hashvault.pro](https://fonero.hashvault.pro)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
+
 
 #### Какую статистику показывает
 
