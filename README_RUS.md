@@ -1,5 +1,6 @@
 # Version: 1.4
 - Добавлен fonero.hashvault.pro
+- Добавлен fno.cryptopool.space
 - Переделан виджет под ITNS в связи с переездом на основное апи (спасибо шэфу, дождались переезда!)
 - Для ITNS со stocks.exchange теперь подбирается значение "buy". Но парсер кривой, так что если поменяется порядок пар на бирже, то может подхватить чужые значения, пишите если что
 - Для FNO тоже выбраны значения "buy" со stocks
@@ -27,6 +28,7 @@
 * [Intensemining.pro](https://Intensemining.pro)
 * [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
 * [fonero.hashvault.pro](https://fonero.hashvault.pro)
+* [fno.cryptopool.space](https://fno.cryptopool.space/)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
