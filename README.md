@@ -1,5 +1,6 @@
 # Version: 1.4
 - Added widget for fonero.hashvault.pro
+- Added widget for fno.cryptopool.space
 - Rewrited ITNS widget for new API
 - For stocks.exchange pirces api, changed value from "sell" to "buy" (For moar realistic profit calc). But Rainmeter json parser is very unusable, and can take price from other coin. If something wrong - tell me please.
 - Changed update time for stocks.exchange prices api to 500 sec. (Ban prevent)
@@ -28,6 +29,7 @@ It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!
   - [aeon.hashvault.pro](https://aeon.hashvault.pro)
   - [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
   - [fonero.hashvault.pro](https://fonero.hashvault.pro)
+* [fno.cryptopool.space](https://fno.cryptopool.space/)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
