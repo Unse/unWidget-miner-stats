@@ -117,14 +117,19 @@ _\- All saved addresses in ** all ** widgets will be reset_
   - 3 - Description of changes in the new version
 - **Update**
   - Method 1.
-    - Under the link ** Download link ** you can download the .ini file of the specific pool widget.
-    - Download .ini to replace the old .ini in the corresponding folder of skins (or download the entire folder and replace it).
+    - Click ** Download link ** and download latest release.
+    - Install downloaded **.rmskin** file
     - Restart Rainmeter
     - Re-write the address in the updated widget
   - Method 2.
-    - Most likely when updating even one widget, I will redesign the installation package .rmskin, so you can click on the coin icon and download the fresh installation file.
+    - Download **unse** dir from github
+    - Delete %username%\Documents\Rainmeter\Skins\unse
+    - Place downloaded files
+    - Restart Rainmeter
+    - Re-write the address in the updated widget
+
 # Author
-unSe (SeveReedge)
+[unS_e](https://t.me/SeveRe_edGe) (SeveRe_edge)
 
 For all questions, the group at **Telegram** @unWidget [Invite link](https://t.me/unWidget)
 If you find a mistake in the translation, please write me.
