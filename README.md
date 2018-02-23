@@ -156,3 +156,4 @@ If you like the widget, you can send me some BTC ; XMR or ZEC
 - BTC: `1QJu6Yuwd3MLz6CUfNzy2FLLmqgo2h8eWv`
 - XMR: `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
 - ZEC: `t1NTaptaMQiu2j3hHoZBdpwWRwqMouYo1mD`
+- ITNS: `iz4ttq3EHWfG8sTzbpfgUgQ9Kv5pubmEnh3aYxJy1KkAe1aC6TspEZ2EFGEkFUiwmXDSMEDYMjTo7VKDj5BSLF2k1CYmuAXqj`
