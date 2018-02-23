@@ -18,8 +18,7 @@
 # What is it
 It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!**) for desktop, showing the current statistics on the miners on pools.
 
-![Screenshot1](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/bgsolid-0-bgblack.png)
-![Screenshot2](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/bgsolid-100-bgwhite.png)
+![Overwiev](https://raw.githubusercontent.com/Unse/unWidget-miner-stats/master/ScreenShots/Overwiev.png)
 
 #### What pools there are widgets already
 
@@ -42,9 +41,9 @@ It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!
 
 - General Statistics:
    - Counting the time since the last block found **by pool**
-   - The coin currency to **USD** and to **BTC** (currency is taken from https://www.cryptonator.com/)
+   - The coin currency to **USD** and to **BTC**
 - Statistics of the miner on the pool:
-   - The current hashrate of the specified address
+   - The current hashrate of the specified address (in H\S or kH\s)
    - Current balance of the miner on the pool (Due)
    - How many coins were paid from the pool (Paid)
    - Profit and Reward (from the current hashrate) **in Day** and **in Month** in ($)
@@ -52,55 +51,33 @@ It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!
 
 #### What planned
 
+- [x] Make code more clean
+- [x] Make universal or static code (calculation and visualization) into separate files for universality and increase the speed of creating new skins for another pools
 - [ ] Make an extra minimalistic design (_not soon_)
 - [ ] Make several ready-made themes (_not_ soon)
-- [x] Make universal or static code (calculation and visualization) into separate files for universality and increase the speed of creating new skins for another pools
-- [ ] It is more efficient to organize the work with the display, unify the widget template
-- [x] Make code more clean
+- [ ] Add switch reward and profit calc between CURRENT\24 H\7 Day   Difficulty
+- [ ] Add widget to calc profit for all hashvault coins from current hashrate (_not soon_)
  
 #### What user data is collected
 
 To understand the demand for the widget, I allowed myself to add sending statistics to Google Analytics.
-For this, the first three functions in the Measures section:
-- \[MeasureRandomID\] - Generates a random ID that is not tied to anything
-- \[MeasureStats\] - Forms the data to send
-- \[MeasureSendStat\] - directly sends data to the google server
-
 Only the following data is sent:
 - Random ID (not tied to anything)
 - Widget version
 - The name of the widget (which pool)
 
 I do not have access to either your IP or any other data, I see only the total number of running widgets with only differences in the versions and names of the widget.
-If you do not want this data to be sent, delete the above functions: \[MeasureRandomID\],\[MeasureStats\],\[MeasureSendStat\]
+
+**It's a little motivating me not to quit doing a widget**
 
 # How to use
 
 #### How to install
-First you need to download and install the program **Rainmeter** version 4.0 final [from the official site] (https://www.rainmeter.net/).
-Then there are two ways to install:
-- Method 1. One installation file. (**preferred for first installation**)
+First you need to download and install the program **Rainmeter** version 4.1 final [from the official site] (https://www.rainmeter.net/).
 
-Download the self-installing file "**unWidget-miner-stats_%current_version_number%.rmskin**" and double-click to install it. In this case, all the skin files will be immediately moved to the necessary directories and ready for use.
-_\+ Convenient for initial installation, or in case of global update_
+Download the self-installing file "unWidget-miner-stats_%current_version_number%**.rmskin**" from [from releases page] (https://github.com/Unse/unWidget-miner-stats/releases). Double-click to install it. In this case, all the skin files will be immediately moved to the necessary directories and ready for use.
+
 _\- All saved addresses in ** all ** widgets will be reset_
-- Method 2: Manually copy .ini files
-
-By default, skin files are stored in `%userprofile%\Documents\Rainmeter\Skins` (Win7-10). My skin uses the following hierarchy, it is desirable to follow it, but it is not necessary:
-```
-%userprofile%\Documents\Rainmeter\Skins
-%userprofile%\Documents\Rainmeter\Skins\Unse
-%userprofile%\Documents\Rainmeter\Skins\Unse\%skin_name%
-```
-For example, "C:\Users\Unse\Documents\Rainmeter\Skins\unse\IntenseMining.pro\", where there are 4 skin files:
-```
-intensemining.pro.ini - skin itself, required file
-intenselogo.png - skin logo, required file
-CheckVer.txt - used by me to check for updates, it is not necessary to download
-Changelog.txt - used by me to conduct a changelogue, it is not necessary to download
-```
-You can download separately .ini and .png and put in the folder of the skin in the corresponding directory.
-**.ini different pools must be placed in different subfolders**, otherwise they will change each other, when turned on, and not displayed next!
 
 #### Management
 - After starting the Rainmeter program, select the desired skin (or several).
