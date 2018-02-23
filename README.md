@@ -53,9 +53,9 @@ It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!
 
 - [ ] Make an extra minimalistic design (_not soon_)
 - [ ] Make several ready-made themes (_not_ soon)
-- [ ] Make universal or static code (calculation and visualization) into separate files for universality and increase the speed of creating new skins for another pools
+- [x] Make universal or static code (calculation and visualization) into separate files for universality and increase the speed of creating new skins for another pools
 - [ ] It is more efficient to organize the work with the display, unify the widget template
-- [ ] Make code more clean
+- [x] Make code more clean
  
 #### What user data is collected
 
