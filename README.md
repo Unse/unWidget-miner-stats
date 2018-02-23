@@ -159,3 +159,4 @@ If you like the widget, you can send me any coins you want:
 - ZEC: `t1cP5zJ6oFsodfQL3ThsPRuNfub9AT8eRcn`
 - ITNS: `iz4ttq3EHWfG8sTzbpfgUgQ9Kv5pubmEnh3aYxJy1KkAe1aC6TspEZ2EFGEkFUiwmXDSMEDYMjTo7VKDj5BSLF2k1CYmuAXqj`
 - SUMO: `Sumoo4nz83bRMPkS8ERdT7AkNr3Qdct96eiXAC249kbGbdRE2jbii98NwnBYMviPTaKuaPBJdGEfzYdPQ4GBLnU8ijHjvRGQQer`
+- ETN: `etnkD5HUtSNjAbEvAUXTZQPg4uXZN28WsGYVKiF6WoyrZv34ALVPod2BpPR27k1xKjbbyRDUbNBQgBuWfeY1jk4w2Q41VzcaTA`
