@@ -4,6 +4,7 @@
 - Добавил переключение отображения между хэшами в секунду и Килохешами в секунду (просто кликнуть на хешрейт)
 - Добавил подсказки
 - Добавил ВСЕ пулы нашего любимого Hashvault 
+- Fee для ETN снижен до 15% (взято с whattomine)
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 # Оглавление
