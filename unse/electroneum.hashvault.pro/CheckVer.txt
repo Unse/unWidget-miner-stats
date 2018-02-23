@@ -1,1 +1,0 @@
-  Latest Version: "1.4". This file uses for auto check new  skin version.
