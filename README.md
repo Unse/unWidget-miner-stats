@@ -1,10 +1,10 @@
-# Version: 1.4
-- Added widget for fonero.hashvault.pro
-- Added widget for fno.cryptopool.space
-- Rewrited ITNS widget for new API
-- For stocks.exchange pirces api, changed value from "sell" to "buy" (For moar realistic profit calc). But Rainmeter json parser is very unusable, and can take price from other coin. If something wrong - tell me please.
-- Changed update time for stocks.exchange prices api to 500 sec. (Ban prevent)
-- For ETN profit formula added -35% badluck.
+# Version: 1.5
+- A lot of work has been done with the engine. Almost completely rewritten for unification. Now the addition of new pools will take very little time. And it will be easier to add new features.
+- Fix (for ever! :) ) prices from stocks.exchange ( big Thanks to @klamas (telegram) for RexEx)
+- Can swith between H\S and kH\s
+- Added tooltips
+- Added ALL Hashvault Pools!!! :D
+- ETN reward fee now 15% (from whattomine)
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 
@@ -24,12 +24,15 @@ It is widget (skin for [Rainmeter](https://www.rainmeter.net/)) (**Windows only!
 
 * [Hashvault.pro/](https://www.hashvault.pro/)
   - [monero.hashvault.pro](https://monero.hashvault.pro)
-  - [sumokoin.hashvault.pro](https://sumokoin.hashvault.pro)
-  - [intense.hashvault.pro](https://intense.hashvault.pro)
   - [aeon.hashvault.pro](https://aeon.hashvault.pro)
+  - [sumokoin.hashvault.pro](https://sumokoin.hashvault.pro)
+  - [karbo.hashvault.pro](https://karbo.hashvault.pro)
   - [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
+  - [intense.hashvault.pro](https://intense.hashvault.pro)
+  - [leviarcoin.hashvault.pro](https://leviarcoin.hashvault.pro)
   - [fonero.hashvault.pro](https://fonero.hashvault.pro)
-* [fno.cryptopool.space](https://fno.cryptopool.space/)
+  - [edollar.hashvault.pro](https://edollar.hashvault.pro)
+  - [graft.hashvault.pro](https://graft.hashvault.pro)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
