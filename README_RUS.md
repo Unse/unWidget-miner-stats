@@ -1,13 +1,9 @@
-# Version: 1.4
-- Добавлен fonero.hashvault.pro
-- Добавлен fno.cryptopool.space
-- Переделан виджет под ITNS в связи с переездом на основное апи (спасибо шэфу, дождались переезда!)
-- Для ITNS со stocks.exchange теперь подбирается значение "buy". Но парсер кривой, так что если поменяется порядок пар на бирже, то может подхватить чужые значения, пишите если что
-- Для FNO тоже выбраны значения "buy" со stocks
-- Для stocks.exchange увеличен период обновления прайсов до 500 секунд. А то банят чёт. :(
-- Для ETN исправлена формула профита, теперь вычитается 35%, как и должно быть (значение примерное, но лучше рассчитывать на худшее, а получать чуть больше. По факту реальных примерно 25-30% надо вычитать. Связано с нестабильностью сети Электронеума)
-- Реорганизация подхватывания ченжлога и чекверсии, для своего удобства.
-
+# Version: 1.5
+- Проделана большая работа с "движком" моего скина. Переработано все в пользу унификации. Теперь смогу очень оперативно добавлять новые пулы или монеты. И проще будет добавлять новые функции.
+- Наконец починил неверно берущиеся прайсы со stocks.exchange (Спасибо большое Марату Рахимову aka @klamas за регулярки!)
+- Добавил переключение отображения между хэшами в секунду и Килохешами в секунду (просто кликнуть на хешрейт)
+- Добавил подсказки
+- Добавил ВСЕ пулы нашего любимого Hashvault 
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 # Оглавление
@@ -22,17 +18,20 @@
 
 #### Под какие пулы уже есть виджеты
 
-* [Minemonero.pro](https://minemonero.pro)
-* [Sumomining.pro](https://Sumomining.pro)
-* [Aeonmining.pro](https://Aeonmining.pro)
-* [Intensemining.pro](https://Intensemining.pro)
-* [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
-* [fonero.hashvault.pro](https://fonero.hashvault.pro)
-* [fno.cryptopool.space](https://fno.cryptopool.space/)
+* [Hashvault.pro/](https://www.hashvault.pro/)
+  - [monero.hashvault.pro](https://monero.hashvault.pro)
+  - [aeon.hashvault.pro](https://aeon.hashvault.pro)
+  - [sumokoin.hashvault.pro](https://sumokoin.hashvault.pro)
+  - [karbo.hashvault.pro](https://karbo.hashvault.pro)
+  - [electroneum.hashvault.pro](https://electroneum.hashvault.pro)
+  - [intense.hashvault.pro](https://intense.hashvault.pro)
+  - [leviarcoin.hashvault.pro](https://leviarcoin.hashvault.pro)
+  - [fonero.hashvault.pro](https://fonero.hashvault.pro)
+  - [edollar.hashvault.pro](https://edollar.hashvault.pro)
+  - [graft.hashvault.pro](https://graft.hashvault.pro)
 * [zec.nanopool.org](https://zec.nanopool.org/)
 * [zcash.flypool.org](https://zcash.flypool.org/)
 * [dwarfpool.com/zec](http://dwarfpool.com/zec/)
-
 
 #### Какую статистику показывает
 
