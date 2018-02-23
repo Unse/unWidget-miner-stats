@@ -7,6 +7,8 @@
 - ETN reward fee now 15% (from whattomine)
 - New comfortable transparency settings
 
+[DOWNLOAD Release v1.5](https://github.com/Unse/unWidget-miner-stats/releases/tag/1.5)
+
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 
 [Русский readme](https://github.com/Unse/unWidget-miner-stats/blob/master/README_RUS.md)
