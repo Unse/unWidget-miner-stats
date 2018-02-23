@@ -123,7 +123,7 @@ _\- All saved addresses in ** all ** widgets will be reset_
     - Re-write the address in the updated widget
   - Method 2.
     - Download **unse** dir from github
-    - Delete %username%\Documents\Rainmeter\Skins\unse
+    - Delete %userprofile%\Documents\Rainmeter\Skins\unse
     - Place downloaded files
     - Restart Rainmeter
     - Re-write the address in the updated widget
@@ -136,6 +136,8 @@ If you find a mistake in the translation, please write me.
 
 # Donate
 If you like the widget, you can send me any coins you want:
+Big thanks to those who supported me and morally and financially all this time!
+
 - BTC: `1NKEySHjCNcvStKMUr3x1cHAUNp7UtLFo6`
 - XMR: `46DVhimWRR3GSrSgf24Hhq6cXdpgrgZPuGorNyfKj6645JtLuS34xqFGEVXsYgqneMG3PWUqi9oVQ9Zq335wKZcf6BarAsk`
 - ZEC: `t1cP5zJ6oFsodfQL3ThsPRuNfub9AT8eRcn`
