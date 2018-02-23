@@ -5,6 +5,7 @@
 - Added tooltips
 - Added ALL Hashvault Pools!!! :D
 - ETN reward fee now 15% (from whattomine)
+- New comfortable transparency settings
 
 [Changelog](https://github.com/Unse/unWidget-miner-stats/blob/master/Changelog.md)
 
@@ -152,9 +153,9 @@ For all questions, the group at **Telegram** @unWidget [Invite link](https://t.m
 If you find a mistake in the translation, please write me.
 
 # Donate
-If you like the widget, you can send me some BTC ; XMR or ZEC 
-- BTC: `1QJu6Yuwd3MLz6CUfNzy2FLLmqgo2h8eWv`
-- XMR: `466LPipyiqQ5fER4mRY6XJCBAcx6cSq6DeAeun8aySqmeuCSQB1QvBWKLKgmQmyQXx7ZDg48REgHDWne37ZNJrV1KVMUL1L`
-- ZEC: `t1NTaptaMQiu2j3hHoZBdpwWRwqMouYo1mD`
+If you like the widget, you can send me any coins you want:
+- BTC: `1NKEySHjCNcvStKMUr3x1cHAUNp7UtLFo6`
+- XMR: `46DVhimWRR3GSrSgf24Hhq6cXdpgrgZPuGorNyfKj6645JtLuS34xqFGEVXsYgqneMG3PWUqi9oVQ9Zq335wKZcf6BarAsk`
+- ZEC: `t1cP5zJ6oFsodfQL3ThsPRuNfub9AT8eRcn`
 - ITNS: `iz4ttq3EHWfG8sTzbpfgUgQ9Kv5pubmEnh3aYxJy1KkAe1aC6TspEZ2EFGEkFUiwmXDSMEDYMjTo7VKDj5BSLF2k1CYmuAXqj`
 - SUMO: `Sumoo4nz83bRMPkS8ERdT7AkNr3Qdct96eiXAC249kbGbdRE2jbii98NwnBYMviPTaKuaPBJdGEfzYdPQ4GBLnU8ijHjvRGQQer`
