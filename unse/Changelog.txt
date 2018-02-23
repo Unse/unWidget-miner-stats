@@ -1,3 +1,12 @@
+[[Version:1.5
+-A lot of work has been done with the engine. Almost completely rewritten for unification. Now the addition of new pools will take very little time. And it will be easier to add new features.
+-Fix (for ever! :) ) prices from stocks.exchange ( big Thanks to @klamas (telegram) for RexEx)
+-Can swith between H\S and kH\s
+-Added tooltips
+-Added ALL Hashvault Pools!!! :D
+-ETN reward fee now 15% (from whattomine)
+-New comfortable transparency settings
+]]
 [[Version:1.4
 -Добавлен fonero.hashvault.pro
 -Добавлен fno.cryptopool.space

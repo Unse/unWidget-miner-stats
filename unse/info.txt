@@ -1,0 +1,62 @@
+###HASHVAULT POOLS###
+
+##  1
+Name: monero.hashvault.pro
+Coin: XMR
+Price from: cryptonator.com
+Net stats from: whattomine.com
+
+##  2
+Name: aeon.hashvault.pro
+Coin: AEON
+Price from: cryptonator.com
+Net stats from: whattomine.com
+
+##  3
+Name: sumokoin.hashvault.pro
+Coin: SUMO
+Price from: cryptonator.com
+Net stats from: whattomine.com
+
+##  4
+Name: karbo.hashvault.pro
+Coin: KRB
+Price from: cryptonator.com
+Net stats from: whattomine.com
+
+##  5
+Name: electroneum.hashvault.pro
+Coin: ETN
+Price from: cryptopia.co.nz
+Net stats from: whattomine.com
+Comment: Added 15% fee in Reward calc   ####!!!!####
+
+##  6
+Name: intense.hashvault.pro
+Coin: ITNS
+Price from: stocks.exchange
+Net stats from: Hashvault Pool
+
+##  7
+Name: leviarcoin.hashvault.pro
+Coin: XLC
+Price from: cryptopia.co.nz
+Net stats from: Hashvault Pool
+
+##  8
+Name: fonero.hashvault.pro
+Coin: FNO
+Price from: stocks.exchange
+Net stats from: Hashvault Pool
+
+##  9
+Name: edollar.hashvault.pro
+Coin: EDL
+Price from:  NOT AVAILABLE   ####!!!!####
+Net stats from: Hashvault Pool
+
+##  10
+Name: graft.hashvault.pro
+Coin: GRFT
+Price from:  NOT AVAILABLE   ####!!!!####
+Net stats from: Hashvault Pool
